@@ -3,9 +3,9 @@ import React from 'react';
 export default class header extends React.Component{
     render(){
         return(
-            
+            <div>
 
-            
+          
             <div className="container">
               <div className="icon">
                   <a href="https://github.com/">
@@ -19,18 +19,41 @@ export default class header extends React.Component{
                 <div className="list">
                 <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M11.41 9H.59C0 9 0 8.59 0 8c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zm0-4H.59C0 5 0 4.59 0 4c0-.59 0-1 .59-1H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1h.01zM.59 11H11.4c.59 0 .59.41.59 1 0 .59 0 1-.59 1H.59C0 13 0 12.59 0 12c0-.59 0-1 .59-1z"></path></svg>
                 </div>
-                <div className="signup">
-               
+                <div >
+                <a href="https://github.com/join?source=header" class="d-inline-block signup d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/trending&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eee5320e4e63f8aaaa042814889c0d3af98fa944bf26a45bd506d822285ab827" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">
+                    Sign&nbsp;up
+                </a>
                 </div>
-                <span className="bg"></span>
-                <div className="title">
+               
+                                        
+                
+                 </div>  
+
+                {/* <div className="link">
+                    
+                    <li >
+                        <a>Explore</a>
+                    </li>
+                    <li>
+                        <a>
+                            Topics
+                        </a>
+                        <a>
+                            Trending
+                        </a>
+                        <a>Collections</a>
+                        <a>Events</a>
+                    </li>
+                    <li>
+                        GitHub Sponsors
+                    </li>
+            </div> */}
+                 <div className="title">
                     <h1 >Trending</h1>
                        <p>             
                          See what the GitHub community is most excited about today.       
                         </p>            
-                 </div>                               
-
-                
+                 </div>       
             </div>
           
            
