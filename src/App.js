@@ -7,8 +7,13 @@ import Header from './Header/header';
 function App() {
   return (
     <div className="App">
-       <Header></Header>
+      <div>
+      <Header></Header>
+      </div>
+      <div className="content_top"> 
       <Content></Content>
+      </div>
+     
      
       {/* <Footer></Footer> */}
       
