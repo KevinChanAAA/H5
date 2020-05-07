@@ -12,122 +12,113 @@ code {
     monospace;
 }
 
-.container{
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-
-
-}
-/* Header */
-.container{
-  width: 100%;
-  height: 1.2cm;
-  background-color:black;
-  position: fixed;
+.background{
   
-
+  background-color: rgb(77,78,80);
+  background-repeat: no-repeat;
+  width: 375;
+  height: 812px;
 }
-.icon{
 
-  float: left;
-  background: white;
-  border-radius: 50%;
+.head_padding{
+  padding-top: 64px;
+}
+/* search.jsx */
+.input_Search{
+  position: 15px 70px;
+  margin: 15px 0 15px 0;
+  width: 345px;
+  height: 34px;
+  border-radius: 15px; 
+  opacity: 10%;
+  color: #FFFFFF ;
+}
 
+.box{
+  position: 0px 64px;
+  width: 375;
+  height: 46px;
+  opacity: 100;
+  color: #57585A 100%;
+  padding-top: 64px;
+}
+
+.icon-user{
   
-}
-.list{
-  float: right;
-  fill: white;
-    
-}
+  background-image: "/Users/kevin/gym/src/icon/search.png"; /*引入图片图片*/
+  background-repeat: no-repeat; /*设置图片不重复*/
+  background-position: 30px 77px; /*图片显示的位置*/
+  width: 20px; /*设置图片显示的宽*/
+  height: 20px; /*图片显示的高*/
+  }
 
-.signup{
-  float: right;
-  margin: -4px;
-  border-radius: 9px;
-}
-
-
-
-.title{
-  border-top: 1px solid #e1e4e8;
-  border-bottom: 1px solid #e1e4e8;
-  margin-top: 1cm;
-  padding-top: 1cm;
-  padding-bottom: 1cm;
-  background-color: #f6f8fa;
-  float: left;
-
-}
-/* 
-.link{
-  margin: 1cm;
-  width: 100%;
-
-
-  background: white;
-  position: fixed;
-
-} */
-
-/* Content */
-
-.text-normal{
-  font-size: 20px;
-}
-/* .left{
-  padding-left: 1cm;
-  text-align: left;
-} */
-
-.Content_left{
-  padding: 16px;
-    margin-top: -1px;
-    list-style-type: none;
-    border-top: 1px solid #e1e4e8;
-    
+input::-webkit-input-placeholder{
+  opacity: 0.4;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
 }
 
-.content-ctn{
-  border: 1px solid #e1e4e8;
-  margin-left: 16px;
-  margin-right: 16px;
+/* pay.img */
+.pay{
+  position: absoulte;
+  left:158px ;
+  top:164px;
+  width: 60px;
+  height: 60px;
+  opacity: 100%;
+}
+/* bottom */
+.bottom{
+  opacity: 0.96;
+  background: #444548;
+  position: 0px 617px;
+  width: 375;
+  height: 50px;
+  opacity: 96%;
+}
+
+/* PaySuccess.jsx */
+.title_text{
+  font-family: PingFangSC-Regular;
+  font-size: 15px;
+  color: #FFFFFF;
+  word-spacing: 0px 21px;
+  position: 158px 239px;
+  width: 60px;
+  height: 239px;
+  opacity: 100%;
+}
+
+.description_textdescription_text{
+  opacity: 0.6;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF 100%;
+  text-align: center;
+  position: 42px 268px;
+  width: 291px;
+  height: 40px;
+  opacity: 60%;
+  word-spacing: 0px 20px;
+}
+.course_text{
+  font-family: PingFangSC-Regular;
+  font-size: 15px;
+  color: #FFD738;
+  position: 158px 631px;
+  width: 60px;
+  height: 22px;
+  opacity: 100%;
 
 }
 
-li{
-
-  text-align: left;
-
-}
-
-.btn-sm {
-  padding: 3px 10px;
-  font-size: 12px;
-  line-height: 20px;
-}
-
-.btn {
-  color: #24292e;
-  background-color: #eff3f6;
-  background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
-}
-
-.adjust-size{
-  font-size: 13px;
-}
-
-.repo-language-color {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: skyblue;
-}
-
-.content_top{
-  padding-top:7.5cm;
+/* HomePage */
+.home_photo{
+  position: 20px 125px;
+  width: 335px;
+  height: 140px;
+  border-radius: 2px;
 }
