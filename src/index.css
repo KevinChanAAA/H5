@@ -16,8 +16,8 @@ code {
   
   background-color: rgb(77,78,80);
   background-repeat: no-repeat;
-  width: 375;
-  height: 812px;
+  width: 100%;
+  height: 100%;
 }
 
 .head_padding{
@@ -121,4 +121,179 @@ input::-webkit-input-placeholder{
   width: 335px;
   height: 140px;
   border-radius: 2px;
+}
+.home_title{
+  font-family: PingFangSC-Medium;
+font-size: 15px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-align: left;
+width: 60px;
+height: 20px;
+}
+.text_center{
+  text-align: left;
+}
+.home_content_title{
+  text-align: left;
+  font-family: PingFangSC-Regular;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+
+width: 219px;
+height: 20px;
+}
+
+.hoem_content_detail{
+  opacity: 0.8;
+font-family: PingFangSC-Regular;
+font-size: 12px;
+color: #FFFFFF;
+letter-spacing: 0;
+width: 321px;
+height: 17px;
+}
+
+.home_content_bg{
+  background: #828487;
+  border-radius: 4px;
+  width: 345px;
+  height: 210px;
+  margin-left: 15px;
+}
+
+.bottom_icon{
+  width: 28px;
+  height: 28px;
+ 
+
+}
+
+.bottom_text{
+  width: 24px;
+  height: 16px;
+  font-family: PingFangSC-Regular;
+  font-size: 11px;
+  letter-spacing: 0;  
+  
+}
+li{
+  list-style:none;
+ 
+}
+
+.yellow_icon{
+  background: #FFD738;
+  width: 2px;
+  height: 10px;
+}
+
+.detail_photo{
+  width: 345px;
+  height: 140px;
+  border-radius: NaNpx;
+
+}
+
+/* course.jsx */
+
+.course_title{
+  font-family: PingFangSC-Regular;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  height: 40px;
+  width:375px;
+  margin-left:15px;
+  padding-top:40px;
+  padding-bottom:50px;
+}
+
+.course_icon{
+  background:#FFD738;
+  width:12px;
+  height:2px;
+}
+
+
+/* Coursr_detail */
+.course_detail_head{
+  width: 375px;
+  height: 280px;
+}
+.course_detail_info{
+  background: #828487;
+  width: 375px;
+  height: 172px;
+  padding: 15px;
+  text-align: left;
+}
+.course_detail_yellow{
+  font-family: PingFangSC-Regular;
+  color: #FFD738; 
+  
+  font-size: 18px;
+  width: 345px;
+  height: 25px;
+  
+}
+.course_detail_text{
+  font-family: PingFangSC-Light;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 20px;
+ 
+}
+.course_detail_info_icon_border{
+  
+  border: 0 solid #FFFFFF;
+
+}
+.course_detail_info_icon{
+  width: 16px;
+  height: 18px;
+  
+}
+.course_detail_info_time{
+  opacity: 0.8;
+  font-family: PingFangSC-Light;
+  font-size: 13px;
+  color: #FFFFFF;
+  height: 18px;
+ 
+
+}
+
+
+.course_detail_descript{
+  background: #828487;
+  width: 375px;
+  height: 427px;
+  margin-top: 10px;
+  text-align: left;
+  padding: 15px;
+}
+.course_detail_descript_icon{
+  background: #FFD738;
+  width: 2px;
+  height: 10px;
+}
+
+.course_detail_descript_title{
+  font-family: PingFangSC-Medium;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 20px;
+  width: 60px;
+  height: 20px;
+  
+  
+}
+.course_detail_descript_photo{
+  width: 345px;
+  height: 120px;
+}
+.course_detail_buy{
+  padding:13px;
 }
